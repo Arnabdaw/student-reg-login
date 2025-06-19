@@ -27,7 +27,7 @@ const Login = ({ onTogglePage, onLoginSuccess }) => {
   }
     
     console.log('Login attempt with:', { email, password });
-    // onLoginSuccess(); 
+    onLoginSuccess(); 
 
     
   };
