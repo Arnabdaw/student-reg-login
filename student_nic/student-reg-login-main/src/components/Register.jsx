@@ -11,9 +11,12 @@ const Register = ({ onTogglePage }) => {
     gender: '',
     age: ''
   });
+
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
 
+
+  
   const handleChange = (e) => {
     const { id, value } = e.target;
     setFormData(prevData => ({ ...prevData, [id]: value }));
